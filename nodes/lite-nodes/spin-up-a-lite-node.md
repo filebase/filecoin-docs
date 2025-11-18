@@ -188,7 +188,7 @@ The last thing we need to do to get our node setup is to build the package. The 
 2.  Make the Lotus binaries and install them:
 
     ```shell
-    make clean && make calibrationnet
+    make clean && make calibnet
     sudo make install
     ```
 3.  Once the installation finishes, query the Lotus version to ensure everything is installed successfully and for the correct network:
